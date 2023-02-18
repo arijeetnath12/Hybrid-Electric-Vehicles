@@ -2,3 +2,5 @@ The goal of this project is to evaluate the performance of a hybrid gas/electric
 
 The init.m files contains all the variables and constants that are needed to be initialized before the simulink model is run. The simulink model is named project12020a.slx. The engine map is contained in a .mat file called engine_map.mat. The three drive cycles that are analysed in this simulation are udds.mat, us06.mat, hwfet.mat
 
+The results and discussion are included in the comprehensive report. 
+
