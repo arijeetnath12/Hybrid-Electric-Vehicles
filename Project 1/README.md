@@ -5,7 +5,7 @@ The init.m files contains all the variables and constants that are needed to be 
 The results and discussion are included in the comprehensive report titled Project 1 Arijeet.pdf. 
 
 <p align="center">
-  <img src="https://github.com/arijeetnath12/Hybrid-Electric-Vehicles/blob/b56ee1f9c666b8e3d08bf6ffbe9c4626c72b2275/Project%201/Simulink%20Model.jpg" alt="Image" width="900" />
+  <img src="https://github.com/arijeetnath12/Hybrid-Electric-Vehicles/blob/b56ee1f9c666b8e3d08bf6ffbe9c4626c72b2275/Project%201/Simulink%20Model.jpg" alt="Image" width="1500" />
   <br>
   <em>Simulink Block</em>
 </p>
