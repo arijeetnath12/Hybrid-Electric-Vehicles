@@ -6,6 +6,7 @@ N= 100;
 T_e = linspace(-400,400,N);
 options = optimoptions('fmincon','Algorithm','interior-point');
 
+
 for i = 1:N
     param.Te = T_e(i);
     iqd = fmincon(@(iqd)objfun(iqd),[0;0],[],[],[],[],[],[],@(iqd)confuneq(iqd),options);
