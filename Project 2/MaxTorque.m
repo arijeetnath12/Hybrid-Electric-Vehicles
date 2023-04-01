@@ -7,7 +7,7 @@ for i = 1:N
     param.w_r = omega_r(i);
     iqd_forMaxT = fmincon(@(iqd_forMaxT)maxtorque(iqd_forMaxT),...
     [0;0],[],[],[],[],[],[],...
-    @(iqd_forMaxT)myconstraint(iqd_forMaxT),options);
+    @(iqd_forMaxT)constraint_for_max_torque(iqd_forMaxT),options);
     Iqd_forMaxT(i,:) = iqd_forMaxT;
     Te_max(i,:) = -maxtorque(Iqd_forMaxT(i,:));
 
