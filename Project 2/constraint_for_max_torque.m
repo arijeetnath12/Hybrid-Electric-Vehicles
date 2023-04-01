@@ -1,10 +1,11 @@
-function [c,ceq] = myconstraint(iqd)
+function [c,ceq] = constraint_for_max_torque(iqd)
 global param
 
 % define constraints
 v_q = param.r_s*iqd(1) + param.w_r*(param.lambda_m + param.L_d*iqd(2));
 v_d = param.r_s*iqd(2) - param.w_r*param.L_q*iqd(1);
 
+% define inequality constraints
 c(1) = sqrt(iqd(1)^2 + iqd(2)^2) - param.Is_max;
 c(2) = sqrt(v_q^2 + v_d^2) - param.Vs_max;
 
