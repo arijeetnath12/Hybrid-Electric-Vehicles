@@ -5,8 +5,9 @@ injection. This simulation will be used to show that it is possible to rapidly a
 
 The torque v/s time graph below highlights that the model successfully showed that it is possible to achieve the desired torque within 10's of milliseconds. 
 
-![Torque v/s time graph](Project 2/Te vs time.png "Torque v/s time")
+![Torque v/s time graph]([Project 2/Te vs time.png](https://github.com/arijeetnath12/Hybrid-Electric-Vehicles/blob/5d19bb118e34d72deb759df353c4b228f7c55c83/Project%202/Te%20vs%20time.png) "Torque v/s time")
 
 The high level Simulink architecture is given below:
 <img src="Project 2/Simulink Model.png" width="300" height="200">
-![Simulink architecture](Project 2/Simulink Model.png "Simulink architecture")
+
+![Simulink architecture]([Project 2/Simulink Model.png](https://github.com/arijeetnath12/Hybrid-Electric-Vehicles/blob/d859d9e19e9fceb261220ea78ef614bfc4d3dcef/Project%202/Simulink%20Model.png) "Simulink architecture")
