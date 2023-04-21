@@ -4,10 +4,16 @@ injection. This simulation will be used to show that it is possible to rapidly a
 (commanded) torque (within 10's of milliseconds), as long as the commanded torque is within limits.
 
 The torque v/s time graph below highlights that the model successfully showed that it is possible to achieve the desired torque within 10's of milliseconds. 
+<p align="center">
+  <img src="https://github.com/arijeetnath12/Hybrid-Electric-Vehicles/blob/99b37746034d901fe627608877428f0ee2d1d2d0/Project%202/Te%20vs%20time.png" alt="Image" width="2000" />
+  <br>
+  <em>Torque v/s time graph</em>
+</p>
 
-![Torque v/s time graph]([Project 2/Te vs time.png](https://github.com/arijeetnath12/Hybrid-Electric-Vehicles/blob/5d19bb118e34d72deb759df353c4b228f7c55c83/Project%202/Te%20vs%20time.png) "Torque v/s time")
+The Simulink Block is given below:
+<p align="center">
+  <img src="https://github.com/arijeetnath12/Hybrid-Electric-Vehicles/blob/99b37746034d901fe627608877428f0ee2d1d2d0/Project%202/Simulink%20Model.png" alt="Image" width="2000" />
+  <br>
+  <em>Simulink Block</em>
+</p>
 
-The high level Simulink architecture is given below:
-<img src="Project 2/Simulink Model.png" width="300" height="200">
-
-![Simulink architecture]([Project 2/Simulink Model.png](https://github.com/arijeetnath12/Hybrid-Electric-Vehicles/blob/d859d9e19e9fceb261220ea78ef614bfc4d3dcef/Project%202/Simulink%20Model.png) "Simulink architecture")
